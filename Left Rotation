@@ -1,0 +1,5 @@
+public static List<Integer> rotateLeft(int d, List<Integer> list) {
+        List<Integer> l=list.subList(d,list.size());
+        l.addAll(list.subList(0,d));
+        return l;
+    }
